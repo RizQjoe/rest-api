@@ -23,7 +23,12 @@ List of user routes:
 | /api/users/:id    |PUT            | Update a user with new info (admin and authenticated user)|
 
 
-## 
+## Usage
+with only npm :
+$ npm install
+$ npm start
+$ npm run dev
+
 
 
 
