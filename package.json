@@ -1,0 +1,34 @@
+{
+  "name": "rest-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "~1.8.1",
+    "pg": "^7.3.0",
+    "sequelize": "^4.14.0",
+    "sequelize-cli": "^3.0.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "description": "Demo app with basic REST API",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizQjoe/rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RizQjoe/rest-api/issues"
+  },
+  "homepage": "https://github.com/RizQjoe/rest-api#readme"
+}
